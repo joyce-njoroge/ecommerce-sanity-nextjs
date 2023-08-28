@@ -1,21 +1,10 @@
-// next.config.js
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
+  images: {
       domains: [
-        "res.cloudinary.com"
+          "res.cloudinary.com"
       ]
-    },
-  
-    async rewrites() {
-      return [
-        {
-          source: '/(.*)',
-          destination: '/',
-        },
-      ];
-    },
-  };
-  
-  module.exports = nextConfig;
-  
+  }
+}
+
+module.exports = nextConfig
