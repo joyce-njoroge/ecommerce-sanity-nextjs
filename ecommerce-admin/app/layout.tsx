@@ -34,7 +34,7 @@ export default function RootLayout({
             <ToastProvider />
             <ModalProvider />
             {children}
-          </ThemeProvider>
+      </ThemeProvider>
       </body>
     </html>
     </ClerkProvider>

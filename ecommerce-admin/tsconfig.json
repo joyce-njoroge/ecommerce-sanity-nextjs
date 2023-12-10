@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "lib/token.js", "app/api/[storeId]/checkout/token.js", "app/api/[storeId]/checkout/route.ts", "lib/mpesa.js"],
   "exclude": ["node_modules"]
 }

@@ -103,7 +103,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
                       <FormItem>
                         <FormLabel>Name</FormLabel>
                         <FormControl>
-                          <Input disabled={loading} placeholder="Store name" {...field} />
+                          <Input disabled={loading} placeholder="Store name" {...field} autoComplete="store name" />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
