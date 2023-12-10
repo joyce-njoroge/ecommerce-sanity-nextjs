@@ -1,8 +1,12 @@
 {
-    "REWITES": [
+    "routes": [
         {
-            "SOURCE": "/(.*)",
-            "DESTINATION": "/"
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/test",
+            "dest": "/"
         }
     ]
 }
