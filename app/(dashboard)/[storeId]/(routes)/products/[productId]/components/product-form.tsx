@@ -169,7 +169,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                 <FormItem>
                   <FormLabel>Name</FormLabel>
                   <FormControl>
-                    <Input disabled={loading} placeholder="Product name" {...field} />
+                    <Input autoComplete="off" disabled={loading} placeholder="Product name" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
